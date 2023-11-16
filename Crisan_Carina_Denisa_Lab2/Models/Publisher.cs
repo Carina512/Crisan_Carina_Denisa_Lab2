@@ -1,5 +1,8 @@
-﻿namespace Crisan_Carina_Denisa_Lab2.Models
+﻿using Microsoft.AspNetCore.Authorization;
+
+namespace Crisan_Carina_Denisa_Lab2.Models
 {
+    
     public class Publisher
     {
         public int ID { get; set; }
